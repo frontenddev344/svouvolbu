@@ -319,6 +319,7 @@ img {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     position: relative;
+    border-radius: 8px;
 }
 .home-page-cards:hover {
 transform: translateY(-4px);
