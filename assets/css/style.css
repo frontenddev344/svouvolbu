@@ -312,10 +312,12 @@ img {
 }
 
 /* Home Page Intro Text CSS End */
+
+/* Home Page Cards CSS Start */
 .home-page-cards {
     height: 350px;
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     position: relative;
 }
 .home-page-cards:hover {
@@ -349,6 +351,8 @@ justify-content: center;
 color: #fff;
 }
 
+
+/* Home Page Cards CSS End */
 
 
 
