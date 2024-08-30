@@ -397,6 +397,10 @@ section.home-page-cards-section.py-5 {
     border-image: linear-gradient(180deg, #6e8eec 30%, #39b985 80%) 1;
     border-width: 6px;
     border-style: solid;
+    transition: 0.7s all ease-in-out;
+}
+.home-page-selected-hotels-cards:hover{
+    box-shadow: rgba(57, 185, 133) 0px 8px 8px, rgb(57, 185, 133) 0px 8px 5px;
 }
 
 .home-page-selected-hotels-cards-image {
@@ -429,6 +433,7 @@ section.home-page-cards-section.py-5 {
     padding: 25px 0;
     font-size: 30px;
 }
+
 
 .home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content {
     top: 55%;
@@ -539,9 +544,12 @@ input.pages-signup-input {
 }
 .pages-blog-cards {
     overflow: hidden;
-    border-image: linear-gradient(180deg, #6e8eec 30%,#39b985 80%) 1;
+    border-image: linear-gradient(180deg, #6e8eec 30%,rgb(57, 185, 133) 80%) 1;
     border-width: 5px;
     border-style: solid;
+}
+.pages-blog-cards:hover{
+    box-shadow: rgba(57, 185, 133) 0px 8px 8px, rgb(57, 185, 133) 0px 8px 5px;
 }
 .pages-blog-cards:hover .pages-blog-cards-image img{
     transform: scale(1.1) rotate(-2deg);
