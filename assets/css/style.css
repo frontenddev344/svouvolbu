@@ -331,7 +331,7 @@ section.home-page-cards-section.py-5 {
     transition: all 0.3s ease-in-out;
     position: relative;
     border-radius: 8px;
-    border-image: linear-gradient(90deg, #fad2d2 30%, #bde902 80%) 1;
+    border-image: linear-gradient(90deg, #6e8eec 30%, #39b985 80%) 1;
     border-width: 5px;
     border-style: solid;
 }
@@ -394,7 +394,7 @@ section.home-page-cards-section.py-5 {
 .home-page-selected-hotels-cards {
     position: relative;
     overflow: hidden;
-    border-image: linear-gradient(180deg, #fff 30%, #bde902 80%) 1;
+    border-image: linear-gradient(180deg, #6e8eec 30%, #39b985 80%) 1;
     border-width: 6px;
     border-style: solid;
 }
@@ -439,7 +439,7 @@ section.home-page-cards-section.py-5 {
 }
 
 .location {
-    color: #bde902;
+    color: #39b985;
     margin-right: 5px;
     animation: big 1.5s ease-in-out infinite;
 }
@@ -475,7 +475,7 @@ section.home-page-cards-section.py-5 {
 
     padding: 30px 0;
     background-color: #fff;
-    border-image: linear-gradient(90deg, #c6baba 30%, #bde902 80%) 1;
+    border-image: linear-gradient(90deg, #6e8eec 30%, #39b985 80%) 1;
     border-width: 5px;
     border-style: solid;
 }
@@ -491,17 +491,17 @@ input.pages-signup-input {
     font-size: 16px;
     padding: 9px 10px;
     outline: none;
-    border: 1px solid #bde902;
+    border: 1px solid #39b985;
     line-height: 20px;
     color: #545556;
 }
 
 .pages-signup-submit-button {
     display: inline-block;
-    background: #bde902;
+    background: #39b985;
     padding: 9px 25px;
     font-size: 16px;
-    color: #000;
+    color: #fff;
     outline: none;
     margin-left: 5px;
     cursor: pointer;
@@ -531,7 +531,7 @@ input.pages-signup-input {
 /* Home Page Blog Cards CSS Start */
 .pages-blog-cards {
     overflow: hidden;
-    border-image: linear-gradient(180deg, #dbe904 30%, #121505 80%) 1;
+    border-image: linear-gradient(180deg, #6e8eec 30%,#39b985 80%) 1;
     border-width: 5px;
     border-style: solid;
 }
@@ -555,16 +555,91 @@ input.pages-signup-input {
     }
 
 
-.pages-blog-cards-text {
-    background-color: #bde902;
-}
+    .pages-blog-cards-text {
+        background: #6e8eec;
+    }
 
 .pages-blog-cards-text h3 {
-    color: #000;
+    color: #fff;
 }
 
 /* Home Page Blog Cards CSS End */
 
+/* Pages Accordion Section CSS Start  */
+.accordion-button::after {
+    flex-shrink: 0;
+    content: "\f067";
+    font-family: "FontAwesome";
+    background-image: none;
+    background-repeat: no-repeat;
+  min-width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    content: "\f068";
+    font-family: "FontAwesome";
+    background-image: none;
+    transform: rotate(0);
+    background: transparent;
+  }
+  
+  .accordion {
+    --bs-accordion-btn-icon-transform: rotate(0);
+  }
+  
+  .accordion-button:not(.collapsed) {
+     background:#6e8eec;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .accordion-button {
+    color: #fff;
+    font-weight: 600;
+    background: #6e8eec;
+  }
+  
+  .accordion {
+    --bs-accordion-border-color: none;
+  }
+  
+  .accordion-item {
+    margin-bottom: 12px;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-item:last-of-type {
+    border-radius: 0;
+  }
+  
+  .accordion-item:first-of-type {
+    border-radius: 0;
+  }
+  
+  .accordion-body {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  
+  /* Pages Accordion Section CSS End  */
+  
 
 
 
