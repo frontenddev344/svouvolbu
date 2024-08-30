@@ -529,6 +529,14 @@ input.pages-signup-input {
 
 
 /* Home Page Blog Cards CSS Start */
+.pages-blog-cards-section{
+    background-image: url("../images/selected-cards-bg.jpg");
+    background-color: rgba(0 0 0/80%);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .pages-blog-cards {
     overflow: hidden;
     border-image: linear-gradient(180deg, #6e8eec 30%,#39b985 80%) 1;
