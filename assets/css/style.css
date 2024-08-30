@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 /* Global CSS Start */
 
 * {
@@ -16,7 +17,7 @@ body {
     font-family: "Open Sans", sans-serif;
     padding: 0;
     margin: 0;
-  }
+}
 
 h1,
 h2,
@@ -24,9 +25,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cinzel", serif;
     font-weight: 700;
 }
+
 
 p {
     line-height: 1.5;
@@ -83,7 +85,7 @@ img {
     margin: 0 auto;
     z-index: 999;
     border-bottom: 1px solid #fff;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -139,8 +141,8 @@ img {
 
 
 .site-header.fixed-header {
-    background-color: #1c9290;
     border-bottom: none;
+    background-color: #6f8eec;
 }
 
 .site-header.fixed-header .contact ul li a {
@@ -233,6 +235,7 @@ img {
     border-radius: 50%;
 }
 
+
 /* Header CSS End */
 
 
@@ -314,49 +317,123 @@ img {
 /* Home Page Intro Text CSS End */
 
 /* Home Page Cards CSS Start */
+section.home-page-cards-section.py-5 {
+    background-color: #dbe0f0;
+}
 .home-page-cards {
     height: 350px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     position: relative;
     border-radius: 8px;
+    border-image: linear-gradient(90deg, #fad2d2 30%, #bde902 80%) 1;
+    border-width: 5px;
+    border-style: solid;
 }
+
 .home-page-cards:hover {
-transform: translateY(-4px);
-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
 .home-page-cards-image {
     height: 100%;
     width: 100%;
 }
+
 .home-page-cards-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: 0.5s all ease-in-out;
 }
-.home-page-cards-content{
+.home-page-cards:hover  .home-page-cards-image img{
+    transform: scale(1.1);
+}
+.home-page-cards-content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     height: 100%;
     width: 100%;
     background-color: rgba(0 0 0/40%);
     background-blend-mode: multiply;
 }
-.home-page-cards-content a{
-height: 100%;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #fff;
+
+.home-page-cards-content a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 
 
 /* Home Page Cards CSS End */
 
 
+/* Home Page Selected Hotels Section Start  */
+.home-page-selected-hotels-section{
+    background-image: url("../images/selected-cards-bg.jpg");
+    background-color: rgba(0 0 0/75%);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.home-page-selected-hotels-cards {
+    position: relative;
+    overflow: hidden;
+    border-image: linear-gradient(180deg, #fff 30%, #bde902 80%) 1;
+    border-width: 6px;
+    border-style: solid;
+}
+.home-page-selected-hotels-cards-image{
+    height: 400px;
+    width: 100%;
+}
+.home-page-selected-hotels-cards-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+transition: 0.7s all ease-in-out;
+}
+.home-page-selected-hotels-cards:hover   .home-page-selected-hotels-cards-image img{
+transform:scale(1.1) rotate(-2deg);
+}
+.home-page-selected-hotels-cards-content {
+    position: absolute;
+    top: 80%;
+    background: rgba(0 0 0/70%);
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+ }
+ .home-page-selected-hotels-cards-content h3 {
+    padding: 25px 0;
+    font-size: 30px;
+}
+ .home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content  {
+top: 55%;
+} 
+
+.home-page-selected-hotels-cards-content h5 {
+    font-size: 23px;
+}
+.location{
+    color: #bde902;
+    margin-right: 5px;
+    animation:big 1.5s ease-in-out infinite;
+}
+.home-page-selected-hotels-cards-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Home Page Selected Hotels Section End */
 
 
 
@@ -379,7 +456,7 @@ color: #fff;
     position: fixed;
     bottom: -100%;
     width: 100%;
-    background-color: #efcd45;
+    background-color: #6e8eec;
     padding: 15px 25px 22px;
     transition: all 1s ease-in-out;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -396,7 +473,7 @@ color: #fff;
 .info p {
     font-size: 15px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
 }
 
 .buttons {

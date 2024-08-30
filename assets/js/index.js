@@ -11,6 +11,17 @@ $(document).ready(function () {
   
   // Toggle Menu Functionaliy End
 
+
+  // Header scroll js Start
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var header = $("header");
+    header.toggleClass("fixed-header", $(window).scrollTop() > 0 );
+  });
+});
+
+// Header scroll js End
+
   // Read More Functionality JS Start
 
 $('.subpage-readmore-btn').click(function (e) {
