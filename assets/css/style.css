@@ -447,6 +447,70 @@ top: 55%;
 /* Home Page Selected Hotels Section End */
 
 
+/* Home Page Signup CSS Start */
+.pages-signup-section {
+    padding: 40px 0;
+    background-color: #cdd5ef;
+  }
+  
+  .pages-signup-wrapper {
+    text-align: center;
+
+    padding: 30px 0;
+    background-color: #fff;
+    border-image: linear-gradient(90deg, #c6baba 30%, #bde902 80%) 1;
+    border-width: 5px;
+    border-style: solid;
+  }
+  
+  .pages-signup-input-wrapper {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  
+  input.pages-signup-input {
+    width: 40%;
+    display: inline-block;
+    font-size: 16px;
+    padding: 9px 10px;
+    outline: none;
+    border: 1px solid #bde902;
+    line-height: 20px;
+    color: #545556;
+  }
+  
+  .pages-signup-submit-button {
+    display: inline-block;
+    background: #bde902;
+    padding: 9px 25px;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: 0.3s all ease-in-out;
+    line-height: 20px;
+  }
+  
+  .pages-signup-submit-button:hover {
+    background-color: #fff;
+    border-color: #545556;
+    color: #000;
+  }
+  
+  .pages-signup-wrapper h3 {
+    font-size: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: normal;
+    font-weight: 700;
+  }
+  
+  /* Home Page Signup CSS End */
+  
+
 
 
 
