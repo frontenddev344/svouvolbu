@@ -547,6 +547,7 @@ input.pages-signup-input {
     border-image: linear-gradient(180deg, #6e8eec 30%,rgb(57, 185, 133) 80%) 1;
     border-width: 5px;
     border-style: solid;
+    transition: box-shadow 0.8s ease-in-out;
 }
 .pages-blog-cards:hover{
     box-shadow: rgba(57, 185, 133) 0px 8px 8px, rgb(57, 185, 133) 0px 8px 5px;
