@@ -529,7 +529,18 @@ input.pages-signup-input {
 
 
 /* Home Page Blog Cards CSS Start */
-
+.pages-blog-cards {
+    overflow: hidden;
+    border-image: linear-gradient(180deg, #dbe904 30%, #121505 80%) 1;
+    border-width: 5px;
+    border-style: solid;
+ }
+ .pages-blog-cards-text {
+background-color: #bde902;
+}
+.pages-blog-cards-text  h3{
+ color: #000;
+    }
 
 /* Home Page Blog Cards CSS End */
 
