@@ -971,11 +971,24 @@ span.heading-like {
 .pages-cards-wrapper h2{
     color: #fff;
 }
-
-
 /* Pages Cards Section CSS End */
 
 
+/* Blog Page Cards CSS Start */
+.blog-page-cards {
+    box-shadow: #6e8eec 0px 7px 29px 0px;
+    margin-bottom: 30px;
+    padding: 20px;
+    min-height: 280px;
+    border-radius: 8px;
+}
+.blog-page-cards h3 {
+    font-size: 26px;
+}
+.blog-page-cards p {
+font-size: 17px;
+font-weight: 500;
+}
 
 
 
@@ -984,7 +997,41 @@ span.heading-like {
 
 
 
+.blog-icons{
+    font-size: 50px;
+    color: #6e8eec;
+    animation: slide 1.5s ease-in-out infinite;
+    margin: 20px;
+}
+@keyframes slide {
 
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(3px);
+    }
+}
+.blog-after-cards-text-section{
+    margin-bottom: 70px;
+}
+.blog-after-cards-text-wrapper p{
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+/* Blog Page Cards CSS End */
 
 /* Cookies CSS Start */
 .wrapper {
