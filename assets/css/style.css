@@ -333,7 +333,7 @@ section.home-page-cards-section.py-5 {
 .home-page-cards {
     height: 350px;
     overflow: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     position: relative;
     border-radius: 8px;
     border-image: linear-gradient(90deg, #6e8eec 30%, #39b985 80%) 1;
@@ -402,11 +402,14 @@ section.home-page-cards-section.py-5 {
     border-image: linear-gradient(180deg, #6e8eec 30%, #39b985 80%) 1;
     border-width: 6px;
     border-style: solid;
-    transition: 0.7s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 
 .home-page-selected-hotels-cards:hover {
     box-shadow: rgba(57, 185, 133) 0px 8px 8px, rgb(57, 185, 133) 0px 8px 5px;
+}
+.home-page-selected-hotels-wrapper h2 {
+    color: #fff;
 }
 
 .home-page-selected-hotels-cards-image {
@@ -418,7 +421,7 @@ section.home-page-cards-section.py-5 {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    transition: 0.7s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 
 .home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-image img {
@@ -448,6 +451,13 @@ section.home-page-cards-section.py-5 {
 .home-page-selected-hotels-cards-content h5 {
     font-size: 23px;
 }
+.home-page-selected-hotels-cards-content p {
+  color: #fff;
+}
+.home-page-selected-hotels-cards-content .heading-like {
+    color: #fff;
+  }
+
 
 .location {
     color: #39b985;
@@ -910,9 +920,12 @@ input.pages-signup-input {
     border-image: linear-gradient(180deg, #6e8eec 30%, rgb(57, 185, 133) 80%) 1;
     border-width: 6px;
     border-style: solid;
-    transition: box-shadow 0.8s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
     background-color: #d4ede3;
     margin-bottom: 40px;
+}
+.pages-cards:hover {
+    box-shadow: rgba(57, 185, 133) 0px 8px 8px, rgb(57, 185, 133) 0px 8px 5px;
 }
 
 .pages-cards-image {
