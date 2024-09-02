@@ -29,7 +29,7 @@ $('.subpage-readmore-btn').click(function (e) {
     // console.log('click');
     $(this).parent().prev().slideToggle('slow');
     // $('.subpage-exp-content').slideToggle('slow');
-    $(this).text($(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
+    $(this).text($(this).text() == 'Číst méně' ? 'Přečtěte si více' : 'Číst méně');
   });
   
   // Read More Functionality JS end
