@@ -421,6 +421,7 @@ section.home-page-cards-section.py-5 {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: 0.5s box-shadow ease-in-out;
     transition: 0.5s all ease-in-out;
 }
 
