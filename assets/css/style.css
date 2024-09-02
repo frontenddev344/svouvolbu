@@ -862,6 +862,7 @@ input.pages-signup-input {
     background: #fff;
     color: #000;
     border-color: #39b985;
+    box-shadow: #39b985 0px 4px 7px;
 }
 
 .external-pages-link-btn {
@@ -880,6 +881,7 @@ input.pages-signup-input {
 .external-pages-link-btn:hover {
     background: #39b985;
     color: #fff;
+    box-shadow: #39b985 0px 4px 10px;
 }
 
 .text-left {
