@@ -849,7 +849,7 @@ input.pages-signup-input {
     border: none;
     outline: none;
     padding: 10px 20px;
-    transition: 0.7s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     cursor: pointer;
     line-height: normal;
     display: inline-block;
@@ -872,7 +872,7 @@ input.pages-signup-input {
     padding: 10px 20px;
     line-height: normal;
     text-align: center;
-    transition: 0.7s all ease-in-out;
+    transition: 0.s all ease-in-out;
     overflow: hidden;
     border: 1px solid #39b985;
     font-weight: 600;
@@ -881,7 +881,7 @@ input.pages-signup-input {
 .external-pages-link-btn:hover {
     background: #39b985;
     color: #fff;
-    box-shadow: #39b985 0px 4px 10px;
+    box-shadow: #000 0px 4px 10px;
 }
 
 .text-left {
