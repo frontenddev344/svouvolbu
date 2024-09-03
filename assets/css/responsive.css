@@ -1,13 +1,146 @@
-@media screen and(max-width:1200px) {}
+@media screen and (max-width:1200px) {}
 
-@media screen and(max-width:991px) {}
-
-@media screen and(max-width:767px) {}
-
-@media screen and(max-width:575px) {}
-
-@media screen and(max-width:480px) {
-  .logo {
-    width: 50%;
+@media screen and (max-width:991px) {
+  .banner-text h1 {
+    margin-top: 60px;
   }
+  .banner-image {
+    height:550px;
+  }
+  .pages-intro-text-wrapper p {
+    font-size: 15px;
+  }
+  .home-page-cards {
+    height: 220px;
+}
+.home-page-cards-content a h3 {
+  font-size: 21px;
+}
+.section-heading {
+  font-size: 45px;
+}
+
+
+
+
+}
+
+@media screen and (max-width:767px) {
+  .menu-icon {
+    font-size: 22px;
+    padding: 6px 15px;
+}
+.banner-text h1 {
+  margin-top: 60px;
+  font-size: 50px;
+}
+.banner-image {
+  height: 420px;
+}
+.pages-intro-text-wrapper p {
+  font-size: 14px;
+}
+.home-page-cards {
+  height: 280px;
+}
+.section-heading {
+  font-size: 40px;
+}
+.home-page-selected-hotels-cards-image {
+  height: 280px;
+}
+
+
+
+
+}
+
+@media screen and (max-width:575px) {
+  .menu-icon {
+    font-size: 22px;
+    padding: 5px 12px;
+}
+.main-navbar {
+  width: 100%;
+}
+.banner-text h1 {
+  margin-top: 60px;
+  font-size: 45px;
+}
+.banner-image {
+  height: 370px;
+}
+.pages-intro-text-wrapper p {
+  font-size: 13px;
+}
+.home-page-cards {
+  height: 260px;
+}
+.section-heading {
+  font-size: 35px;
+}
+.home-page-selected-hotels-cards-image {
+  height: 250px;
+}
+.home-page-selected-hotels-cards-content {
+  top: 75%;
+}
+.home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content {
+  top: 0%;
+}
+.home-page-selected-hotels-cards-content h3 {
+  padding: 20px 0;
+  font-size: 25px;
+}
+.home-page-selected-hotels-cards-content h5 {
+  font-size: 20px;
+}
+.home-page-selected-hotels-cards-content p {
+  font-size: 15px;
+}
+
+}
+
+@media screen and (max-width:480px) {
+  .logo {
+    max-width: 150px;
+}
+.menu-icon {
+  font-size: 19px;
+  padding: 3px 10px;
+}
+.banner-text h1 {
+  margin-top: 50px;
+  font-size: 32px;
+}
+.banner-image {
+  height: 280px;
+}
+.pages-intro-text-wrapper p {
+  font-size: 12px;
+}
+.home-page-cards {
+  height: 220px;
+}
+.section-heading {
+  font-size: 30px;
+}
+.home-page-selected-hotels-cards-image {
+  height: 220px;
+}
+.home-page-selected-hotels-cards-content {
+  top: 60%;
+}
+.home-page-selected-hotels-cards-content h3 {
+  padding: 30px 0;
+  font-size: 23px;
+}
+.home-page-selected-hotels-cards-content h5 {
+  font-size: 18px;
+}
+.home-page-selected-hotels-cards-content p {
+  font-size: 16px;
+}
+
+
 }
