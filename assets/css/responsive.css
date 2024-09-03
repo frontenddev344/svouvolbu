@@ -22,8 +22,15 @@
 .pages-signup-wrapper h3 {
   font-size: 26px;
 }
-
-
+input.pages-signup-input {
+  width: 50%;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+.pages-signup-submit-button {
+  padding: 8px 15px;
+  font-size: 14px;
+}
 
 }
 
@@ -71,6 +78,16 @@
 }
 .pages-signup-wrapper h3 {
   font-size: 24px;
+}
+input.pages-signup-input {
+  width: 90%;
+  padding: 7px 10px;
+  font-size: 14px;
+}
+.pages-signup-submit-button {
+  padding: 7px 15px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 }
 
@@ -129,8 +146,11 @@ input.pages-signup-input {
 .pages-signup-submit-button {
   padding: 7px 15px;
   font-size: 13px;
-  margin-top: 10px;
 }
+
+
+
+
 }
 
 @media screen and (max-width:480px) {
