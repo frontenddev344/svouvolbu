@@ -49,9 +49,22 @@
 .home-page-selected-hotels-cards-image {
   height: 280px;
 }
-
-
-
+.home-page-selected-hotels-cards-content {
+  top: 65%;
+}
+.home-page-selected-hotels-cards-content h3 {
+  padding: 20px 0 40px 0;
+  font-size: 24px;
+}
+.home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content {
+  top: 20%;
+}
+.home-page-selected-hotels-cards-content h5 {
+  font-size: 20px;
+}
+.home-page-selected-hotels-cards-content p {
+  font-size: 15px;
+}
 
 }
 
