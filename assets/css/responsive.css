@@ -121,6 +121,16 @@
   font-size: 22px;
   padding: 0 5px;
 }
+input.pages-signup-input {
+  width: 90%;
+  padding: 7px 10px;
+  font-size: 13px;
+}
+.pages-signup-submit-button {
+  padding: 7px 15px;
+  font-size: 13px;
+  margin-top: 10px;
+}
 }
 
 @media screen and (max-width:480px) {
@@ -165,7 +175,14 @@
 }
 .pages-signup-wrapper h3 {
   font-size: 20px;
-
+}
+input.pages-signup-input {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.pages-signup-submit-button {
+  padding: 6px 15px;
+  font-size: 12px;
 }
 
 }
