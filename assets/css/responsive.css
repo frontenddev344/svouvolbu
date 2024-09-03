@@ -13,12 +13,23 @@
   .home-page-cards {
     height: 220px;
 }
+
 .home-page-cards-content a h3 {
   font-size: 21px;
 }
 .section-heading {
   font-size: 45px;
 }
+.home-page-selected-hotels-cards-image {
+  height: 280px;
+}
+.home-page-selected-hotels-cards-content {
+ top: 75%;
+}
+.home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content {
+  top: 30%;
+}
+
 .pages-signup-wrapper h3 {
   font-size: 26px;
 }
