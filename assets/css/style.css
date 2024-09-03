@@ -686,7 +686,6 @@ input.pages-signup-input {
 /* Footer CSS Start */
 .footer {
     background-color: #6e8eec;
-
 }
 
 .footer-wrapper {
@@ -701,6 +700,17 @@ input.pages-signup-input {
 .logo-bottom img {
     width: 100%;
     max-width: 300px;
+}
+.lg-btm{
+    text-align: center;
+    width: 100%;
+}
+.lg-btm a {
+    width: 100%;
+}
+.lg-btm a img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .footer-items {
@@ -777,15 +787,14 @@ input.pages-signup-input {
     text-align: center;
     display: inline-flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 30px;
+    justify-content: center;
     margin: 10px auto;
 
 }
 
 .social-icons i {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     font-size: 17px;
     background-color: #fffcfc;
