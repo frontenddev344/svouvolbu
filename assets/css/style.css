@@ -100,6 +100,10 @@ img {
 
 .logo {
     text-align: center;
+    max-width: 200px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
 }
 
 
@@ -107,7 +111,6 @@ img {
     width: 100%;
     height: 100%;
     text-align: center;
-    max-width: 230px;
     vertical-align: middle;
     padding: 5px 0;
 }
@@ -279,6 +282,7 @@ img {
     background-color: rgba(0 0 0/70%);
     background-blend-mode: multiply;
     overflow: hidden;
+    text-align: center;
 }
 
 .banner-text h1 {
@@ -385,7 +389,9 @@ section.home-page-cards-section.py-5 {
 
 
 /* Home Page Cards CSS End */
-
+.home-page-cards-wrapper,.home-page-selected-hotels-cards-wrapper {
+    overflow: hidden;
+}
 
 /* Home Page Selected Hotels Section Start  */
 .home-page-selected-hotels-section {
@@ -699,7 +705,7 @@ input.pages-signup-input {
 
 .logo-bottom img {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
 }
 .lg-btm{
     text-align: center;
@@ -831,6 +837,7 @@ input.pages-signup-input {
     overflow: hidden;
 }
 .pages-banner-text {
+    text-align: center;
     background-color: rgba(0 0 0/80%);
 }
 
@@ -852,6 +859,7 @@ input.pages-signup-input {
     opacity: 0;
     transform: translateX(-100%);
     text-align: center;
+    overflow: hidden;
 }
 
 @keyframes roll {
