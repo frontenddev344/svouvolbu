@@ -304,6 +304,11 @@
   .pages-cards-content {
     padding: 15px 0;
   }
+  .btn-darkred-block,
+  .external-pages-link-btn {
+    padding: 9px 10px;
+    font-size: 14px;
+  }
 
   .pages-cards-content h3 {
     font-size: 23px;
