@@ -87,13 +87,18 @@ input.pages-signup-input {
 .pages-cards-wrapper h2 {
   font-size: 30px;
  }
+ .pages-cards-image {
+  height: 280px;
+}
  .pages-cards-content h3 {
   font-size: 26px;
 }
 .pages-cards-content h5 {
   font-size: 22px;
 }
-
+.pages-cards-group p,.pages-cards-content ul li {
+  font-size: 16px;
+}
 /* Pages CSS End */
 }
 
@@ -191,6 +196,9 @@ input.pages-signup-input {
 .pages-cards-wrapper h2 {
   font-size: 28px;
  }
+ .pages-cards-image {
+  height: 250px;
+}
  .pages-cards-content {
   padding: 15px 0;
 }
@@ -199,6 +207,12 @@ input.pages-signup-input {
 }
 .pages-cards-content h5 {
   font-size: 20px;
+}
+.pages-cards-group p,.pages-cards-content ul li {
+  font-size: 15px;
+}
+.pages-cards-image {
+  height: 240px;
 }
 /* Pages CSS End */
 
@@ -291,6 +305,9 @@ input.pages-signup-input {
 .pages-banner-text h1 {
   font-size: 24px;
 }
+.pages-cards-image {
+  height: 210px;
+}
 .pages-banner-text h3 {
   font-size: 19px;
   max-width: 300px;
@@ -304,7 +321,9 @@ input.pages-signup-input {
 .pages-cards-content h5 {
   font-size: 18px;
 }
-
+.pages-cards-group p ,.pages-cards-content ul li{
+  font-size: 14px;
+}
 /* Pages CSS End */
 }
 
@@ -409,6 +428,9 @@ input.pages-signup-input {
 }
 .pages-cards-content h5 {
   font-size: 16px;
+}
+.pages-cards-group p,.pages-cards-content ul li {
+  font-size: 13px;
 }
 /* Pages CSS End */
 
