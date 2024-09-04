@@ -686,9 +686,28 @@ input.pages-signup-input {
     font-weight: 500;
     font-size: 17px;
     color: #454545;
+    box-shadow: #6e8eec 0px 2px 10px;
 }
 
 /* Pages Accordion Section CSS End  */
+
+/* Disclaimer Section CSS Start */
+.disclaimer{
+    box-shadow: #6e8eec 0px 10px 36px 0px, #6e8eec 0px 0px 15px 1px;
+}
+  .disclaimer-wrapper h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  .disclaimer-wrapper p {
+    font-size: 17px;
+      margin-bottom: 10px;
+    font-weight: 500;
+  }
+  /* Disclaimer Section CSS End */
+  
 
 /* Footer CSS Start */
 .footer {
@@ -944,11 +963,11 @@ input.pages-signup-input {
     border-width: 6px;
     border-style: solid;
     transition: box-shadow 0.4s ease-in-out;
-    background-color: #d4ede3;
+    background-color: #b9c6ec;
     margin-bottom: 40px;
 }
 .pages-cards:hover {
-    box-shadow: rgba(57, 185, 133) 0px 8px 8px, rgb(57, 185, 133) 0px 8px 5px;
+    box-shadow: #6e8eec 0px 8px 8px,#6e8eec 0px 8px 5px;
 }
 
 .pages-cards-image {
