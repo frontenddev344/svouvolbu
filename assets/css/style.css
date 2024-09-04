@@ -1027,6 +1027,9 @@ span.heading-like {
 
 
 /* Blog Page Cards CSS Start */
+.blog-banner-text h3{
+    font-size: 45px;
+}
 .blog-page-cards {
     box-shadow: #6e8eec 0px 7px 29px 0px;
     margin-bottom: 30px;

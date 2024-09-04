@@ -149,17 +149,25 @@
   .terms-conditions-group h4 {
     font-size: 16px;
   }
+  /* Other Pages CSS End */
+
+  /* Blog Pages CSS Start */
   .blog-page-cards h3 {
     font-size: 25px;
   }
+
   .blog-page-cards p {
     font-size: 16px;
-}
-.blog-after-cards-text-wrapper p {
-  font-size: 16px;
-}
+  }
 
-  /* Other Pages CSS End */
+  .blog-after-cards-text-wrapper p {
+    font-size: 16px;
+  }
+  .blog-banner-text h3 {
+    font-size: 34px;
+    margin-top: 42px;
+  }
+  /* Blog Pages CSS End */
 }
 
 @media screen and (max-width:767px) {
@@ -327,16 +335,26 @@
   .terms-conditions-group ul li {
     font-size: 15px;
   }
+  /* Other Pages CSS End */
+
+  /* Blog Pages CSS Start */
   .blog-page-cards h3 {
     font-size: 24px;
   }
+
   .blog-page-cards p {
     font-size: 15px;
-}
-.blog-after-cards-text-wrapper p {
-  font-size: 15px;
-}
-  /* Other Pages CSS End */
+  }
+
+  .blog-after-cards-text-wrapper p {
+    font-size: 15px;
+  }
+  .blog-banner-text h3 {
+    font-size: 38px;
+    margin-top: 40px;
+  }
+  /* Blog Pages CSS End */
+
 }
 
 @media screen and (max-width:575px) {
@@ -503,17 +521,28 @@
   .terms-conditions-group h4 {
     font-size: 15px;
   }
+
+  /* Other Pages CSS End */
+
+  /* Blog Pages CSS Start */
   .blog-page-cards h3 {
     font-size: 22px;
   }
+
   .blog-page-cards p {
     font-size: 14px;
-}
-.blog-after-cards-text-wrapper p {
-  font-size: 14px;
-}
+  }
 
-  /* Other Pages CSS End */
+  .blog-after-cards-text-wrapper p {
+    font-size: 14px;
+  }
+
+  .blog-banner-text h3 {
+    font-size: 34px;
+    margin-top: 40px;
+  }
+  /* Blog Pages CSS End */
+
 }
 
 @media screen and (max-width:480px) {
@@ -690,11 +719,17 @@
   .blog-page-cards h3 {
     font-size: 20px;
   }
+
   .blog-page-cards p {
     font-size: 13px;
-}
-.blog-after-cards-text-wrapper p {
-  font-size: 13px;
-}
+  }
+
+  .blog-after-cards-text-wrapper p {
+    font-size: 13px;
+  }
+
+  .blog-banner-text h3 {
+    font-size: 28px;
+  }
   /* Blog Pages CSS End */
 }
