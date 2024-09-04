@@ -45,6 +45,7 @@
   .home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content {
     top: 30%;
   }
+
   .home-page-selected-hotels-cards-content a h3 {
     padding: 20px 0 40px 0;
     font-size: 25px;
@@ -111,10 +112,12 @@
     max-width: 350px;
     margin: 0 auto;
   }
-  .btn-darkred-block, .external-pages-link-btn {
+
+  .btn-darkred-block,
+  .external-pages-link-btn {
     padding: 8px 9px;
     font-size: 14px;
-}
+  }
 
   .pages-cards-wrapper h2 {
     font-size: 30px;
@@ -191,17 +194,17 @@
 
   /* Blog Pages CSS End */
 
-   /* Cookies CSS Start */
-   .info p {
+  /* Cookies CSS Start */
+  .info p {
     font-size: 14px;
-}
+  }
 
-.button {
+  .button {
     width: calc(55% / 2 - 10px);
     font-size: 14px;
-}
+  }
 
-/* Cookies CSS End */
+  /* Cookies CSS End */
 }
 
 @media screen and (max-width:767px) {
@@ -403,19 +406,19 @@
 
   /* Blog Pages CSS End */
 
-  
-    /* Cookies CSS Start */
-    .wrapper {
-      padding: 20px 10px;
+
+  /* Cookies CSS Start */
+  .wrapper {
+    padding: 20px 10px;
   }
 
   .info p {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   .button {
-      font-size: 13px;
-      padding: 6px;
+    font-size: 13px;
+    padding: 6px;
   }
 
   /* Cookies CSS End */
@@ -608,19 +611,22 @@
     margin-top: 40px;
   }
 
+  .blog-page-cards {
+    min-height: 0;
+  }
   /* Blog Pages CSS End */
 
-   /* Cookies CSS Start */
-   .info p {
+  /* Cookies CSS Start */
+  .info p {
     font-size: 13px;
-}
+  }
 
-.button {
+  .button {
     width: calc(50% / 2 - 10px);
     font-size: 13px;
-}
+  }
 
-/* Cookies CSS End */
+  /* Cookies CSS End */
 
 
 }
@@ -673,7 +679,7 @@
     font-size: 18px;
   }
 
- 
+
   .pages-signup-wrapper h3 {
     font-size: 20px;
   }
@@ -758,7 +764,8 @@
   .pages-cards-group p,
   .pages-cards-content ul li,
   .terms-conditions-group p,
-  .terms-conditions-group ul li,.subpage-exp-content {
+  .terms-conditions-group ul li,
+  .subpage-exp-content {
     font-size: 14px;
   }
 
@@ -808,21 +815,23 @@
   .blog-banner-text h3 {
     font-size: 28px;
   }
+
   /* Blog Pages CSS End */
 
-  
-    /* Cookies CSS Start */
-    .info p {
-      font-size: 12px;
+
+  /* Cookies CSS Start */
+  .info p {
+    font-size: 12px;
   }
 
   .buttons {
-      gap: 10px;
+    gap: 10px;
   }
 
   .button {
-      width: calc(80% / 2 - 10px);
-      font-size: 13px;
+    width: calc(80% / 2 - 10px);
+    font-size: 13px;
   }
+
   /* Cookies CSS End */
 }
