@@ -105,6 +105,11 @@
     max-width: 350px;
     margin: 0 auto;
   }
+  .btn-darkred-block,
+  .external-pages-link-btn {
+    padding: 9px 10px;
+    font-size: 14px;
+  }
 
   .pages-cards-wrapper h2 {
     font-size: 30px;
