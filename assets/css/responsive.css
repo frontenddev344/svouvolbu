@@ -353,6 +353,9 @@
     font-size: 38px;
     margin-top: 40px;
   }
+  .blog-page-cards {
+      min-height: 400px;
+}
   /* Blog Pages CSS End */
 
 }
