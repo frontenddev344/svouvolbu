@@ -113,6 +113,9 @@
   .pages-cards-image {
     height: 280px;
   }
+  .pages-cards-content {
+    padding: 0 5px;
+}
 
   .pages-cards-content h3 {
     font-size: 26px;
