@@ -113,9 +113,10 @@
   .pages-cards-image {
     height: 280px;
   }
+
   .pages-cards-content {
     padding: 0 5px;
-}
+  }
 
   .pages-cards-content h3 {
     font-size: 26px;
@@ -126,7 +127,8 @@
   }
 
   .pages-cards-group p,
-  .pages-cards-content ul li {
+  .pages-cards-content ul li,
+  .subpage-exp-content {
     font-size: 16px;
   }
 
@@ -152,6 +154,7 @@
   .terms-conditions-group h4 {
     font-size: 16px;
   }
+
   /* Other Pages CSS End */
 
   /* Blog Pages CSS Start */
@@ -166,13 +169,16 @@
   .blog-after-cards-text-wrapper p {
     font-size: 16px;
   }
+
   .blog-banner-text h3 {
     font-size: 34px;
     margin-top: 42px;
   }
+
   .blog-page-cards {
     min-height: 350px;
-}
+  }
+
   /* Blog Pages CSS End */
 }
 
@@ -304,6 +310,7 @@
   .pages-cards-content {
     padding: 15px 0;
   }
+
   .btn-darkred-block,
   .external-pages-link-btn {
     padding: 9px 10px;
@@ -319,7 +326,8 @@
   }
 
   .pages-cards-group p,
-  .pages-cards-content ul li {
+  .pages-cards-content ul li,
+  .subpage-exp-content {
     font-size: 15px;
   }
 
@@ -346,6 +354,7 @@
   .terms-conditions-group ul li {
     font-size: 15px;
   }
+
   /* Other Pages CSS End */
 
   /* Blog Pages CSS Start */
@@ -360,13 +369,16 @@
   .blog-after-cards-text-wrapper p {
     font-size: 15px;
   }
+
   .blog-banner-text h3 {
     font-size: 38px;
     margin-top: 40px;
   }
+
   .blog-page-cards {
-      min-height: 420px;
-}
+    min-height: 420px;
+  }
+
   /* Blog Pages CSS End */
 
 }
@@ -503,7 +515,8 @@
   }
 
   .pages-cards-group p,
-  .pages-cards-content ul li {
+  .pages-cards-content ul li,
+  .subpage-exp-content {
     font-size: 14px;
   }
 
@@ -555,6 +568,7 @@
     font-size: 34px;
     margin-top: 40px;
   }
+
   /* Blog Pages CSS End */
 
 }
@@ -695,7 +709,7 @@
   .pages-cards-group p,
   .pages-cards-content ul li,
   .terms-conditions-group p,
-  .terms-conditions-group ul li {
+  .terms-conditions-group ul li,.subpage-exp-content {
     font-size: 13px;
   }
 
@@ -745,5 +759,6 @@
   .blog-banner-text h3 {
     font-size: 28px;
   }
+
   /* Blog Pages CSS End */
 }
