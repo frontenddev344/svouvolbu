@@ -167,6 +167,9 @@
     font-size: 34px;
     margin-top: 42px;
   }
+  .blog-page-cards {
+    min-height: 350px;
+}
   /* Blog Pages CSS End */
 }
 
