@@ -84,6 +84,9 @@ input.pages-signup-input {
   max-width: 350px;
   margin: 0 auto;
 }
+.pages-cards-wrapper h2 {
+  font-size: 30px;
+ }
 /* Pages CSS End */
 }
 
@@ -178,6 +181,9 @@ input.pages-signup-input {
   font-size: 21px;
   max-width: 300px;
 }
+.pages-cards-wrapper h2 {
+  font-size: 28px;
+ }
 /* Pages CSS End */
 
 }
@@ -273,6 +279,9 @@ input.pages-signup-input {
   font-size: 19px;
   max-width: 300px;
 }
+.pages-cards-wrapper h2 {
+  font-size: 26px;
+ }
 /* Pages CSS End */
 }
 
@@ -366,6 +375,13 @@ input.pages-signup-input {
   font-size: 17px;
   max-width: 260px;
 }
+.pages-cards-wrapper h2 {
+ font-size: 24px;
+}
+.pages-cards-image {
+  height: 170px;
+}
+
 /* Pages CSS End */
 
 
