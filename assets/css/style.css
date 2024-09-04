@@ -327,6 +327,7 @@ img {
     font-weight: 500;
     text-align: center;
     font-size: 17px;
+    color: #707070;
 }
 
 /* Home Page Intro Text CSS End */
@@ -711,6 +712,7 @@ input.pages-signup-input {
     font-size: 17px;
       margin-bottom: 10px;
     font-weight: 500;
+    color: #707070;
   }
   /* Disclaimer Section CSS End */
   
@@ -1040,13 +1042,6 @@ font-size: 17px;
 font-weight: 500;
 }
 
-
-
-
-
-
-
-
 .blog-icons{
     font-size: 50px;
     color: #6e8eec;
@@ -1102,13 +1097,14 @@ font-weight: 500;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 500;
-    color: #545556;
+    color: #707070;
   }
   
   .privacy-policy-group ul li {
     margin-bottom: 10px;
     list-style-type: disc;
     margin-left: 17px;
+    color: #707070;
   }
   .privacy-policy-group h3 a
   {
@@ -1166,6 +1162,7 @@ font-weight: 500;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 500;
+    color: #707070;
   }
   
   .terms-conditions-group p a {
@@ -1185,6 +1182,7 @@ font-weight: 500;
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 10px;
+    color: #707070;
   }
   
   /* Terms and Conditions CSS End*/
