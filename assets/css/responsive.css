@@ -614,6 +614,9 @@
   .blog-page-cards {
     min-height: 0;
   }
+  .blog-icons {
+    font-size: 40px;
+}
   /* Blog Pages CSS End */
 
   /* Cookies CSS Start */
