@@ -426,7 +426,10 @@ section.home-page-cards-section.py-5 {
     height: 400px;
     width: 100%;
 }
-
+.home-page-selected-hotels-cards-image a{
+    height: 100%;
+    width: 100%;
+}
 .home-page-selected-hotels-cards-image img {
     height: 100%;
     width: 100%;
