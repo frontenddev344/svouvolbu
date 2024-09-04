@@ -972,6 +972,9 @@ input.pages-signup-input {
     background-color: #b9c6ec;
     margin-bottom: 40px;
 }
+.pages-cards:last-child{
+    margin-bottom: 0;
+}
 .pages-cards:hover {
     box-shadow: #6e8eec 0px 8px 8px,#6e8eec 0px 8px 5px;
 }
