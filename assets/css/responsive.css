@@ -39,11 +39,17 @@
   }
 
   .home-page-selected-hotels-cards-content {
-    top: 75%;
+    top: 70%;
   }
 
   .home-page-selected-hotels-cards:hover .home-page-selected-hotels-cards-content {
     top: 30%;
+  }
+  .home-page-selected-hotels-cards-content a h3 {
+    padding: 20px 0 40px 0;
+    font-size: 25px;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .pages-signup-wrapper h3 {
