@@ -87,6 +87,13 @@ input.pages-signup-input {
 .pages-cards-wrapper h2 {
   font-size: 30px;
  }
+ .pages-cards-content h3 {
+  font-size: 26px;
+}
+.pages-cards-content h5 {
+  font-size: 22px;
+}
+
 /* Pages CSS End */
 }
 
@@ -184,6 +191,15 @@ input.pages-signup-input {
 .pages-cards-wrapper h2 {
   font-size: 28px;
  }
+ .pages-cards-content {
+  padding: 15px 0;
+}
+.pages-cards-content h3 {
+  font-size: 23px;
+}
+.pages-cards-content h5 {
+  font-size: 20px;
+}
 /* Pages CSS End */
 
 }
@@ -282,6 +298,13 @@ input.pages-signup-input {
 .pages-cards-wrapper h2 {
   font-size: 26px;
  }
+ .pages-cards-content h3 {
+  font-size: 20px;
+}
+.pages-cards-content h5 {
+  font-size: 18px;
+}
+
 /* Pages CSS End */
 }
 
@@ -381,7 +404,12 @@ input.pages-signup-input {
 .pages-cards-image {
   height: 170px;
 }
-
+.pages-cards-content h3 {
+  font-size: 18px;
+}
+.pages-cards-content h5 {
+  font-size: 16px;
+}
 /* Pages CSS End */
 
 
