@@ -625,7 +625,7 @@
     font-size: 18px;
   }
 
-  .home-page-selected-hotels-cards-content p {
+  .home-page-selected-hotels-cards-content h3 {
     font-size: 16px;
   }
 
@@ -635,12 +635,12 @@
 
   input.pages-signup-input {
     padding: 6px 10px;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .pages-signup-submit-button {
     padding: 6px 15px;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .pages-blog-cards-image {
@@ -648,11 +648,11 @@
   }
 
   .accordion-button {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .accordion-body {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .disclaimer-wrapper h3 {
@@ -660,7 +660,7 @@
   }
 
   .disclaimer-wrapper p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .footer-items {
@@ -681,7 +681,7 @@
   }
 
   .copyright p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   /* Pages CSS Start */
@@ -714,7 +714,7 @@
   .pages-cards-content ul li,
   .terms-conditions-group p,
   .terms-conditions-group ul li,.subpage-exp-content {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .btn-darkred-block,
@@ -753,7 +753,7 @@
   }
 
   .blog-page-cards p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .blog-after-cards-text-wrapper p {
