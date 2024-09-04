@@ -421,9 +421,7 @@ section.home-page-cards-section.py-5 {
 .home-page-selected-hotels-wrapper h2 {
     color: #fff;
 }
-.home-page-selected-hotels-cards-content a h3 {
-    color: #fff;
-}
+
 .home-page-selected-hotels-cards-image {
     height: 400px;
     width: 100%;
@@ -451,9 +449,10 @@ section.home-page-cards-section.py-5 {
     transition: all 0.4s ease-in-out;
 }
 
-.home-page-selected-hotels-cards-content h3 {
+.home-page-selected-hotels-cards-content a h3 {
     padding: 25px 0;
     font-size: 30px;
+    color: #fff;
 }
 
 

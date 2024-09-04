@@ -233,9 +233,9 @@
     top: 70%;
   }
 
-  .home-page-selected-hotels-cards-content h3 {
+  .home-page-selected-hotels-cards-content a h3 {
     padding: 20px 0 40px 0;
-    font-size: 24px;
+    font-size: 27px;
     max-width: 300px;
     margin: 0 auto;
   }
@@ -459,9 +459,9 @@
     top: 0%;
   }
 
-  .home-page-selected-hotels-cards-content h3 {
+  .home-page-selected-hotels-cards-content a h3 {
     padding: 20px 0;
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .home-page-selected-hotels-cards-content h5 {
@@ -658,7 +658,7 @@
     top: 55%;
   }
 
-  .home-page-selected-hotels-cards-content h3 {
+  .home-page-selected-hotels-cards-content a h3 {
     padding: 30px 0 45px 0;
     font-size: 23px;
   }
@@ -667,10 +667,7 @@
     font-size: 18px;
   }
 
-  .home-page-selected-hotels-cards-content h3 {
-    font-size: 18px;
-  }
-
+ 
   .pages-signup-wrapper h3 {
     font-size: 20px;
   }
