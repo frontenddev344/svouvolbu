@@ -301,7 +301,7 @@ img {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
-    animation: waviy 1.5s infinite;
+    animation: waviy 1.5s;
     animation-delay: calc(.1s * var(--i));
 }
 
