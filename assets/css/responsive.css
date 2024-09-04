@@ -155,6 +155,9 @@
   .blog-page-cards p {
     font-size: 16px;
 }
+.blog-after-cards-text-wrapper p {
+  font-size: 16px;
+}
 
   /* Other Pages CSS End */
 }
@@ -330,7 +333,9 @@
   .blog-page-cards p {
     font-size: 15px;
 }
-
+.blog-after-cards-text-wrapper p {
+  font-size: 15px;
+}
   /* Other Pages CSS End */
 }
 
@@ -503,6 +508,9 @@
   }
   .blog-page-cards p {
     font-size: 14px;
+}
+.blog-after-cards-text-wrapper p {
+  font-size: 14px;
 }
 
   /* Other Pages CSS End */
@@ -685,6 +693,8 @@
   .blog-page-cards p {
     font-size: 13px;
 }
-
+.blog-after-cards-text-wrapper p {
+  font-size: 13px;
+}
   /* Blog Pages CSS End */
 }
