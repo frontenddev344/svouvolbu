@@ -146,6 +146,16 @@
     font-size: 16px;
   }
 
+  .terms-conditions-group h4 {
+    font-size: 16px;
+  }
+  .blog-page-cards h3 {
+    font-size: 25px;
+  }
+  .blog-page-cards p {
+    font-size: 16px;
+}
+
   /* Other Pages CSS End */
 }
 
@@ -314,6 +324,12 @@
   .terms-conditions-group ul li {
     font-size: 15px;
   }
+  .blog-page-cards h3 {
+    font-size: 24px;
+  }
+  .blog-page-cards p {
+    font-size: 15px;
+}
 
   /* Other Pages CSS End */
 }
@@ -478,6 +494,16 @@
   .terms-conditions-group ul li {
     font-size: 14px;
   }
+
+  .terms-conditions-group h4 {
+    font-size: 15px;
+  }
+  .blog-page-cards h3 {
+    font-size: 22px;
+  }
+  .blog-page-cards p {
+    font-size: 14px;
+}
 
   /* Other Pages CSS End */
 }
@@ -647,4 +673,18 @@
   }
 
   /* Other Pages CSS End */
+
+  /* Blog Pages CSS Start */
+  .blog-icons {
+    font-size: 35px;
+  }
+
+  .blog-page-cards h3 {
+    font-size: 20px;
+  }
+  .blog-page-cards p {
+    font-size: 13px;
+}
+
+  /* Blog Pages CSS End */
 }
