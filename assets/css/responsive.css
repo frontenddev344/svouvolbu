@@ -184,6 +184,18 @@
   }
 
   /* Blog Pages CSS End */
+
+   /* Cookies CSS Start */
+   .info p {
+    font-size: 14px;
+}
+
+.button {
+    width: calc(55% / 2 - 10px);
+    font-size: 14px;
+}
+
+/* Cookies CSS End */
 }
 
 @media screen and (max-width:767px) {
@@ -385,6 +397,23 @@
 
   /* Blog Pages CSS End */
 
+  
+    /* Cookies CSS Start */
+    .wrapper {
+      padding: 20px 10px;
+  }
+
+  .info p {
+      font-size: 13px;
+  }
+
+  .button {
+      font-size: 13px;
+      padding: 6px;
+  }
+
+  /* Cookies CSS End */
+
 }
 
 @media screen and (max-width:575px) {
@@ -575,6 +604,19 @@
 
   /* Blog Pages CSS End */
 
+   /* Cookies CSS Start */
+   .info p {
+    font-size: 13px;
+}
+
+.button {
+    width: calc(50% / 2 - 10px);
+    font-size: 13px;
+}
+
+/* Cookies CSS End */
+
+
 }
 
 @media screen and (max-width:480px) {
@@ -597,7 +639,7 @@
   }
 
   .pages-intro-text-wrapper p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .home-page-cards {
@@ -763,6 +805,21 @@
   .blog-banner-text h3 {
     font-size: 28px;
   }
-
   /* Blog Pages CSS End */
+
+  
+    /* Cookies CSS Start */
+    .info p {
+      font-size: 12px;
+  }
+
+  .buttons {
+      gap: 10px;
+  }
+
+  .button {
+      width: calc(80% / 2 - 10px);
+      font-size: 13px;
+  }
+  /* Cookies CSS End */
 }
