@@ -256,6 +256,7 @@ img {
 .banner {
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .banner-image {
@@ -595,6 +596,11 @@ input.pages-signup-input {
     overflow: hidden;
     width: 100%;
 }
+.pages-blog-cards-image a{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
 
 .pages-blog-cards-image img {
     height: 100%;
@@ -712,6 +718,7 @@ input.pages-signup-input {
 /* Footer CSS Start */
 .footer {
     background-color: #6e8eec;
+    width: 100%;
 }
 
 .footer-wrapper {
@@ -721,15 +728,20 @@ input.pages-signup-input {
     flex-wrap: wrap;
     padding-bottom: 30px;
     overflow: hidden;
+    width: 100%;
+    max-width: 900px;
 }
-
+.logo-bottom{
+    max-width: 200px;
+ }
+.logo-bottom{
+    width: 100%;
+}
 .logo-bottom img {
     width: 100%;
-    max-width: 200px;
 }
 .lg-btm{
-    text-align: center;
-    width: 100%;
+     width: 100%;
 }
 .lg-btm a {
     width: 100%;
@@ -738,12 +750,6 @@ input.pages-signup-input {
     width: 100%;
     object-fit: cover;
 }
-
-.footer-items {
-    width: 30%;
-    padding: 0 20px;
-}
-
 
 .footer-items h3 {
     font-size: 30px;
@@ -782,8 +788,8 @@ input.pages-signup-input {
 }
 
 .footer-icons {
-    min-width: 35px;
-    margin-right: 5px;
+    min-width: 20px;
+    margin-right: 6px;
 }
 
 
