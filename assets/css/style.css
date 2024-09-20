@@ -1283,7 +1283,7 @@ input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: #000;
     border: 1px solid transparent;
     transition: all 0.5s;
 }
