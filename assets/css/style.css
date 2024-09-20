@@ -1291,7 +1291,6 @@ input.form-control.sub_btn {
 input.form-control.sub_btn:hover {
     background-color: #000;
     color: #fff;
-    border: 1px solid var(--secondary-color);
 }
 
 .row.email p a {
