@@ -1289,8 +1289,8 @@ input.form-control.sub_btn {
 }
 
 input.form-control.sub_btn:hover {
-    background-color: #fff;
-    color: var(--secondary-color);
+    background-color: #000;
+    color: #fff;
     border: 1px solid var(--secondary-color);
 }
 
