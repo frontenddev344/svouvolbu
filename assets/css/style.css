@@ -826,6 +826,11 @@ input.pages-signup-input {
     text-align: center;
     margin: auto 0;
     border-top: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .copyright p {
@@ -1401,5 +1406,7 @@ input.form-control.sub_btn:hover {
     border: 1px solid #0e46a31a;
     color: var(--primary-color);
 }
-
+.ssl-logo{
+    max-width: 120px;
+}
 /* contact styling end */
